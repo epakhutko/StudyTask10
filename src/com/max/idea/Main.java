@@ -8,7 +8,7 @@ import static java.lang.System.in;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner inp = new Scanner(in).useLocale(Locale.ENGLISH);;
+        Scanner inp = new Scanner(in).useLocale(Locale.ENGLISH);
         System.out.println("Input array length");
         int n = inp.nextInt();
         if (n<1) {
@@ -34,7 +34,6 @@ public class Main {
             System.out.printf("%f\n", r);
         }
 
-        return;
 
     }
 }
